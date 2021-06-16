@@ -65,4 +65,4 @@ So for the example given above, we know the speech sample:
 - came from a female (**F**) with a voice disorder (**D**) and is saying what is found in `si1997.txt`. We also know that it is 31 days since she had a Botox injection.
 
 ## Survey Results:
-
+As the paper describes, part of the data collection process was asking each speaker a series of questions. While the answers to these questions are not included in the data that is downloaded from the link, I've inlcuded them here as `uncommonvoice_user_data.csv`.
