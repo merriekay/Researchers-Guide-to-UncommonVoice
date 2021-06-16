@@ -45,7 +45,7 @@ These prompts can be found in the `prompt` folder. They are split into T1-T4 cor
 
 
 ## How to decode the filename. 
-Filename example: **FD04\_si1997\_31.wav**
+Filename example: **FD04\_T2\_si1997\_31.wav**
 
 \<**unique ID**\>\_ \<**promptID**\>\_\<**number of days post Botox treatment**\>.wav
 
@@ -53,17 +53,16 @@ Let's go character by character:
 - **First character** is either **F** or **M** and corresponds to the sex of the participant. F: female, M: male. 
 - **Second character** is either **D** or **C** and corresponds to whether or not the speaker has a voice disorder. D: disorder C: Control (no disorder).
 - Then comes a number. The combination of the first section of the filename allows us to uniquely identify each participant.
-- After the first underscore comes the prompt. This is what was presented to the individual.For more information on the prompts, see above.
+- After the first underscore comes the Task number. For a description of what the task number means, see above.
+- After the second underscore comes the prompt. This is what was presented to the individual.For more information on the prompts, see above.
     - Note that for non-words, the prompt does not directly correspond to what the participant said. 
     - For example, the prompt may have been `Please hold /a/ as in 'pot' for 5 seconds` but the speaker did not just read the prompt, they completed the task that it asked.
 - Last, but certaintly not least, we have another number. This number corresponds with the number of days since the speaker's last Botox Injection. Botox is the most common treatment for Spasmodic Dysphonia and the speaker's voice may be more or less clear based on when they recieved their last treatment. If this is **NA** then it means that they do not receive Botox treatment.
 
-Filename example: **FD04\_si1997\_31.wav**
+Filename example: **FD04\_T2\_si1997\_31.wav**
 
 So for the example given above, we know the speech sample:
 - came from a female (**F**) with a voice disorder (**D**) and is saying what is found in `si1997.txt`. We also know that it is 31 days since she had a Botox injection.
 
-**For the sake of clarity, I've included a csv file with the decoded information from above. It is in this repository as `UncommonVoice_file_descriptions.csv`**
+## Survey Results:
 
-## Survey Data
-Part of the data collection process invovled having the speakers answer a few questions. The results of these questions can be found in `uncommonvoice_user_data.csv`. The questions can be found in the paper (Table 1). 
