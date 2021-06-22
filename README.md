@@ -66,3 +66,8 @@ So for the example given above, we know the speech sample:
 
 ## Survey Results:
 As the paper describes, part of the data collection process was asking each speaker a series of questions. While the answers to these questions are not included in the data that is downloaded from the link, I've inlcuded them here as `uncommonvoice_user_data.csv`.
+
+Here is a Table from the paper showing the questions that were asked in the survey: 
+
+![image](https://user-images.githubusercontent.com/5067730/122959440-adaf8780-d348-11eb-89bb-6033a550cf62.png)
+
