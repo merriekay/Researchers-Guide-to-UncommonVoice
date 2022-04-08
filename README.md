@@ -64,6 +64,8 @@ Filename example: **FD04\_T2\_si1997\_31.wav**
 So for the example given above, we know the speech sample:
 - came from a female (**F**) with a voice disorder (**D**) and is saying what is found in `si1997.txt`. We also know that it is 31 days since she had a Botox injection.
 
+>If you do not want to decode the files yourself, a key with this information for each file has been included as at [UncommonVoice_file_descriptions.csv](https://github.com/merriekay/Researchers-Guide-to-UncommonVoice/blob/main/UncommonVoice_file_descriptions%20(1).csv)
+
 ## Survey Results:
 As the paper describes, part of the data collection process was asking each speaker a series of questions. While the answers to these questions are not included in the data that is downloaded from the link, I've inlcuded them here as `uncommonvoice_user_data.csv`.
 
