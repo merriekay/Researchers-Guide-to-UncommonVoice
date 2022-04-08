@@ -65,7 +65,8 @@ So for the example given above, we know the speech sample:
 - came from a female (**F**) with a voice disorder (**D**) and is saying what is found in `si1997.txt`. We also know that it is 31 days since she had a Botox injection.
 
 >If you do not want to decode the files yourself, a key with this information for each file has been included as at [UncommonVoice_file_descriptions.csv](https://github.com/merriekay/Researchers-Guide-to-UncommonVoice/blob/main/UncommonVoice_file_descriptions%20(1).csv)
->It has the columns: \<filename	sex	disorder	prompt	days_since_btx\>
+>
+>It has the columns: \<filename,	sex,	disorder,	prompt,	days_since_btx\>
 
 ## Survey Results:
 As the paper describes, part of the data collection process was asking each speaker a series of questions. While the answers to these questions are not included in the data that is downloaded from the link, I've inlcuded them here as `uncommonvoice_user_data.csv`.
@@ -73,4 +74,11 @@ As the paper describes, part of the data collection process was asking each spea
 Here is a Table from the paper showing the questions that were asked in the survey: 
 
 ![image](https://user-images.githubusercontent.com/5067730/122959440-adaf8780-d348-11eb-89bb-6033a550cf62.png)
+
+## Things to come:
+[ ] A tutorial on getting started with UncommonVoice
+[ ] A notebook that completes common feature extraction techniques (MFCCs, Melspectrograms,...)
+[ ] A calculation of the vowel-space area for each participant before collection and after collection.
+[ ] A basic model that classifies whether or not an individual has a voice disorder using UncommonVoice
+
 
