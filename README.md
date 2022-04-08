@@ -76,9 +76,9 @@ Here is a Table from the paper showing the questions that were asked in the surv
 ![image](https://user-images.githubusercontent.com/5067730/122959440-adaf8780-d348-11eb-89bb-6033a550cf62.png)
 
 ## Things to come:
-[ ] A tutorial on getting started with UncommonVoice
-[ ] A notebook that completes common feature extraction techniques (MFCCs, Melspectrograms,...)
-[ ] A calculation of the vowel-space area for each participant before collection and after collection.
-[ ] A basic model that classifies whether or not an individual has a voice disorder using UncommonVoice
+- [ ] A tutorial on getting started with UncommonVoice
+- [ ] A notebook that completes common feature extraction techniques (MFCCs, Melspectrograms,...)
+- [ ] A calculation of the vowel-space area for each participant before collection and after collection.
+- [ ] A basic model that classifies whether or not an individual has a voice disorder using UncommonVoice
 
 
