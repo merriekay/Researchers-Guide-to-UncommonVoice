@@ -47,7 +47,7 @@ These prompts can be found in the `prompt` folder. They are split into T1-T4 cor
 ## How to decode the filename. 
 Filename example: **FD04\_T2\_si1997\_31.wav**
 
-\<**unique ID**\>\_ \<**promptID**\>\_\<**number of days post Botox treatment**\>.wav
+\<**unique ID**\>\_\<**type of prompt**\>_\<**promptID**\>\_\<**number of days post Botox treatment**\>.wav
 
 Let's go character by character:
 - **First character** is either **F** or **M** and corresponds to the sex of the participant. F: female, M: male. 
